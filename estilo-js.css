@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.principal .card {
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, 0.2);
+    cursor: pointer;
+    margin: 0;
+}
+
+ .principal .card:hover{
+     background-color: rgba(221, 221, 216, 0.979);
+     transform: scale(0.97)
+}
+
+.container-form {
+    text-align: center;
+}
+
+.tickets-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+.tickets-form .tickets-btn {
+   
+    justify-content: center;
+    color: var(--gray-100);
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
